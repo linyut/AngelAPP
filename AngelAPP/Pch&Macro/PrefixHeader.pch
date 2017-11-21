@@ -1,0 +1,40 @@
+//
+//  PrefixHeader.pch
+//  FrameProject
+//
+//  Created by mark on 2017/8/8.
+//  Copyright © 2017年 BOC. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+/*
+ *😁😁😁😁😁😁😁😁😁😁😁😁😁
+ *使用频繁的头文件才放到pch文件中。使用频率不高的头文件最好不要放在pch中，只在使用的文件中添加头文件
+ *😝😝😝😝😝😝😝😝😝😝😝😝😝
+ */
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "Extensions.h"
+
+//#import <AFNetworking/AFNetworking.h>
+//#import <MJRefresh/MJRefresh.h>
+//#import <SVProgressHUD/SVProgressHUD.h>
+//#import <AngelConst/const.h>
+//#import <IQKeyboardManager/IQKeyboardManager.h>
+//#import <YYModel/YYModel.h>
+
+#import "AFNetworking.h"
+#import "MJRefresh.h"
+#import "SVProgressHUD.h"
+#import "const.h"
+#import "IQKeyboardManager.h"
+#import "YYModel.h"
+#import "YYCategories.h"
+
+
+#endif /* PrefixHeader_pch */
