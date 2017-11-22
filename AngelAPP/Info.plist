@@ -41,5 +41,24 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>我们需要访问您的媒体库，可以吗？</string>
+	<key>NSCameraUsageDescription</key>
+	<string>我们需要调用您的摄像头，可以吗？</string>
+	<key>NSContactsUsageDescription</key>
+	<string>复兴壹号将使用通讯录功能</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>复兴壹号将使用定位功能</string>
+	<key>NSLocationUsageDescription</key>
+	<string>复兴壹号将使用定位功能</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>复兴壹号将使用定位功能</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>我们需要访问您的相册，可以吗？</string>
 </dict>
 </plist>
