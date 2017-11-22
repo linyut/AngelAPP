@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>AngelCategories.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>IQKeyboardManager.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -57,7 +62,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>303FDD19364BEB9CD0AA18C8DEC0F6A0</key>
+		<key>38F5E77B5D7A4A154B1932BA27D09252</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>55BC194E6B7F67C897477F88BCE37259</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>66107B587D474C7A4A6F49CEDA6F1BE1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6FC0FF16A1B0E2F980FF5768DA8F4D96</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -77,22 +97,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A2CDC757724B019EC2E0D0CD44F1730E</key>
+		<key>C8C5D79D008D12D9CF48EABBA85EDBB6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B636EDCB9462B09A96DEDE10EB36859E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>BA702547EAD2E30F46E7980090BA245A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>CA443D49C290CB17EF3662D943ADB1DB</key>
+		<key>CB514C1A5B60F97E83974DEF9F5F581C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

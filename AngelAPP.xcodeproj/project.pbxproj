@@ -14,10 +14,6 @@
 		556BBF8A1FC3CE21009A23F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556BBF881FC3CE21009A23F5 /* LaunchScreen.storyboard */; };
 		556BBF951FC3CE22009A23F5 /* AngelAPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BBF941FC3CE22009A23F5 /* AngelAPPTests.m */; };
 		556BBFA01FC3CE22009A23F5 /* AngelAPPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BBF9F1FC3CE22009A23F5 /* AngelAPPUITests.m */; };
-		556BC04E1FC3CEA6009A23F5 /* NSDictionary+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BBFB31FC3CEA6009A23F5 /* NSDictionary+Extensions.m */; };
-		556BC04F1FC3CEA6009A23F5 /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BBFB51FC3CEA6009A23F5 /* NSString+Extensions.m */; };
-		556BC0501FC3CEA6009A23F5 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BBFB71FC3CEA6009A23F5 /* UIColor+HexString.m */; };
-		556BC0511FC3CEA6009A23F5 /* UIView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BBFB91FC3CEA6009A23F5 /* UIView+Extensions.m */; };
 		556BC0521FC3CEA6009A23F5 /* UIAlertController+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BBFBB1FC3CEA6009A23F5 /* UIAlertController+Extend.m */; };
 		556BC0531FC3CEA6009A23F5 /* UITabBar+CustomBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BBFBD1FC3CEA6009A23F5 /* UITabBar+CustomBadge.m */; };
 		556BC0541FC3CEA6009A23F5 /* ErrorInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BBFC11FC3CEA6009A23F5 /* ErrorInfoModel.m */; };
@@ -37,11 +33,6 @@
 		556BC0621FC3CEA6009A23F5 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BBFE41FC3CEA6009A23F5 /* NSData+Base64.m */; };
 		556BC0631FC3CEA6009A23F5 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BBFE61FC3CEA6009A23F5 /* NSData+CommonCrypto.m */; };
 		556BC0641FC3CEA6009A23F5 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BBFE81FC3CEA6009A23F5 /* NSString+Base64.m */; };
-		556BC0651FC3CEA6009A23F5 /* GetUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BBFEB1FC3CEA6009A23F5 /* GetUUID.m */; };
-		556BC0661FC3CEA6009A23F5 /* KeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BBFED1FC3CEA6009A23F5 /* KeyChainStore.m */; };
-		556BC0671FC3CEA6009A23F5 /* NoPasteTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BBFEF1FC3CEA6009A23F5 /* NoPasteTextField.m */; };
-		556BC0681FC3CEA6009A23F5 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BBFF11FC3CEA6009A23F5 /* NSDate+Extension.m */; };
-		556BC0691FC3CEA6009A23F5 /* UIImage+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BBFF31FC3CEA6009A23F5 /* UIImage+Extensions.m */; };
 		556BC07D1FC3CEA7009A23F5 /* TabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BC02A1FC3CEA6009A23F5 /* TabbarController.m */; };
 		556BC07E1FC3CEA7009A23F5 /* BaseNavgationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BC02D1FC3CEA6009A23F5 /* BaseNavgationViewController.m */; };
 		556BC07F1FC3CEA7009A23F5 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BC02F1FC3CEA6009A23F5 /* BaseViewController.m */; };
@@ -90,15 +81,6 @@
 		556BBF9B1FC3CE22009A23F5 /* AngelAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngelAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		556BBF9F1FC3CE22009A23F5 /* AngelAPPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AngelAPPUITests.m; sourceTree = "<group>"; };
 		556BBFA11FC3CE22009A23F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		556BBFB11FC3CEA6009A23F5 /* Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Extensions.h; sourceTree = "<group>"; };
-		556BBFB21FC3CEA6009A23F5 /* NSDictionary+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extensions.h"; sourceTree = "<group>"; };
-		556BBFB31FC3CEA6009A23F5 /* NSDictionary+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extensions.m"; sourceTree = "<group>"; };
-		556BBFB41FC3CEA6009A23F5 /* NSString+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extensions.h"; sourceTree = "<group>"; };
-		556BBFB51FC3CEA6009A23F5 /* NSString+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extensions.m"; sourceTree = "<group>"; };
-		556BBFB61FC3CEA6009A23F5 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
-		556BBFB71FC3CEA6009A23F5 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
-		556BBFB81FC3CEA6009A23F5 /* UIView+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extensions.h"; sourceTree = "<group>"; };
-		556BBFB91FC3CEA6009A23F5 /* UIView+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extensions.m"; sourceTree = "<group>"; };
 		556BBFBA1FC3CEA6009A23F5 /* UIAlertController+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Extend.h"; sourceTree = "<group>"; };
 		556BBFBB1FC3CEA6009A23F5 /* UIAlertController+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Extend.m"; sourceTree = "<group>"; };
 		556BBFBC1FC3CEA6009A23F5 /* UITabBar+CustomBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+CustomBadge.h"; sourceTree = "<group>"; };
@@ -136,16 +118,6 @@
 		556BBFE61FC3CEA6009A23F5 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
 		556BBFE71FC3CEA6009A23F5 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
 		556BBFE81FC3CEA6009A23F5 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
-		556BBFEA1FC3CEA6009A23F5 /* GetUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetUUID.h; sourceTree = "<group>"; };
-		556BBFEB1FC3CEA6009A23F5 /* GetUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetUUID.m; sourceTree = "<group>"; };
-		556BBFEC1FC3CEA6009A23F5 /* KeyChainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyChainStore.h; sourceTree = "<group>"; };
-		556BBFED1FC3CEA6009A23F5 /* KeyChainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyChainStore.m; sourceTree = "<group>"; };
-		556BBFEE1FC3CEA6009A23F5 /* NoPasteTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoPasteTextField.h; sourceTree = "<group>"; };
-		556BBFEF1FC3CEA6009A23F5 /* NoPasteTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoPasteTextField.m; sourceTree = "<group>"; };
-		556BBFF01FC3CEA6009A23F5 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
-		556BBFF11FC3CEA6009A23F5 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
-		556BBFF21FC3CEA6009A23F5 /* UIImage+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extensions.h"; sourceTree = "<group>"; };
-		556BBFF31FC3CEA6009A23F5 /* UIImage+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extensions.m"; sourceTree = "<group>"; };
 		556BC0241FC3CEA6009A23F5 /* InterfaceUrls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceUrls.h; sourceTree = "<group>"; };
 		556BC0251FC3CEA6009A23F5 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		556BC0291FC3CEA6009A23F5 /* TabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarController.h; sourceTree = "<group>"; };
@@ -298,29 +270,12 @@
 		556BBFAF1FC3CEA6009A23F5 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				556BBFB01FC3CEA6009A23F5 /* NSBaseExtensions */,
 				556BBFBA1FC3CEA6009A23F5 /* UIAlertController+Extend.h */,
 				556BBFBB1FC3CEA6009A23F5 /* UIAlertController+Extend.m */,
 				556BBFBC1FC3CEA6009A23F5 /* UITabBar+CustomBadge.h */,
 				556BBFBD1FC3CEA6009A23F5 /* UITabBar+CustomBadge.m */,
 			);
 			path = Categories;
-			sourceTree = "<group>";
-		};
-		556BBFB01FC3CEA6009A23F5 /* NSBaseExtensions */ = {
-			isa = PBXGroup;
-			children = (
-				556BBFB11FC3CEA6009A23F5 /* Extensions.h */,
-				556BBFB21FC3CEA6009A23F5 /* NSDictionary+Extensions.h */,
-				556BBFB31FC3CEA6009A23F5 /* NSDictionary+Extensions.m */,
-				556BBFB41FC3CEA6009A23F5 /* NSString+Extensions.h */,
-				556BBFB51FC3CEA6009A23F5 /* NSString+Extensions.m */,
-				556BBFB61FC3CEA6009A23F5 /* UIColor+HexString.h */,
-				556BBFB71FC3CEA6009A23F5 /* UIColor+HexString.m */,
-				556BBFB81FC3CEA6009A23F5 /* UIView+Extensions.h */,
-				556BBFB91FC3CEA6009A23F5 /* UIView+Extensions.m */,
-			);
-			path = NSBaseExtensions;
 			sourceTree = "<group>";
 		};
 		556BBFBE1FC3CEA6009A23F5 /* Components */ = {
@@ -411,7 +366,6 @@
 			isa = PBXGroup;
 			children = (
 				556BBFE01FC3CEA6009A23F5 /* AES */,
-				556BBFE91FC3CEA6009A23F5 /* Categories */,
 			);
 			path = ThirdPartOpenSource;
 			sourceTree = "<group>";
@@ -429,23 +383,6 @@
 				556BBFE81FC3CEA6009A23F5 /* NSString+Base64.m */,
 			);
 			path = AES;
-			sourceTree = "<group>";
-		};
-		556BBFE91FC3CEA6009A23F5 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				556BBFEA1FC3CEA6009A23F5 /* GetUUID.h */,
-				556BBFEB1FC3CEA6009A23F5 /* GetUUID.m */,
-				556BBFEC1FC3CEA6009A23F5 /* KeyChainStore.h */,
-				556BBFED1FC3CEA6009A23F5 /* KeyChainStore.m */,
-				556BBFEE1FC3CEA6009A23F5 /* NoPasteTextField.h */,
-				556BBFEF1FC3CEA6009A23F5 /* NoPasteTextField.m */,
-				556BBFF01FC3CEA6009A23F5 /* NSDate+Extension.h */,
-				556BBFF11FC3CEA6009A23F5 /* NSDate+Extension.m */,
-				556BBFF21FC3CEA6009A23F5 /* UIImage+Extensions.h */,
-				556BBFF31FC3CEA6009A23F5 /* UIImage+Extensions.m */,
-			);
-			path = Categories;
 			sourceTree = "<group>";
 		};
 		556BC0221FC3CEA6009A23F5 /* ThirdPartSDK */ = {
@@ -837,24 +774,18 @@
 			files = (
 				556BC0571FC3CEA6009A23F5 /* HTTPManager.m in Sources */,
 				556BC05E1FC3CEA6009A23F5 /* NSdictionary+MyDescription.m in Sources */,
-				556BC0501FC3CEA6009A23F5 /* UIColor+HexString.m in Sources */,
-				556BC0511FC3CEA6009A23F5 /* UIView+Extensions.m in Sources */,
 				556BC0521FC3CEA6009A23F5 /* UIAlertController+Extend.m in Sources */,
 				556BC0561FC3CEA6009A23F5 /* EnvManager.m in Sources */,
 				556BC05A1FC3CEA6009A23F5 /* ThemeColor.m in Sources */,
 				556BC07F1FC3CEA7009A23F5 /* BaseViewController.m in Sources */,
 				556BC0531FC3CEA6009A23F5 /* UITabBar+CustomBadge.m in Sources */,
 				556BC07D1FC3CEA7009A23F5 /* TabbarController.m in Sources */,
-				556BC0671FC3CEA6009A23F5 /* NoPasteTextField.m in Sources */,
 				556BC0631FC3CEA6009A23F5 /* NSData+CommonCrypto.m in Sources */,
 				556BC0641FC3CEA6009A23F5 /* NSString+Base64.m in Sources */,
 				556BC0541FC3CEA6009A23F5 /* ErrorInfoModel.m in Sources */,
-				556BC04F1FC3CEA6009A23F5 /* NSString+Extensions.m in Sources */,
-				556BC0691FC3CEA6009A23F5 /* UIImage+Extensions.m in Sources */,
 				556BC0841FC3CEA7009A23F5 /* HomeViewModel.m in Sources */,
 				556BC0551FC3CEA6009A23F5 /* UserInfoModel.m in Sources */,
 				556BC07E1FC3CEA7009A23F5 /* BaseNavgationViewController.m in Sources */,
-				556BC0651FC3CEA6009A23F5 /* GetUUID.m in Sources */,
 				556BC0811FC3CEA7009A23F5 /* ProvinceInfoModel.m in Sources */,
 				556BC0821FC3CEA7009A23F5 /* HomeViewController.m in Sources */,
 				556BC05C1FC3CEA6009A23F5 /* ThemeManager.m in Sources */,
@@ -863,11 +794,8 @@
 				556BC0871FC3CEA7009A23F5 /* MineViewController.m in Sources */,
 				556BBF7F1FC3CE21009A23F5 /* AppDelegate.m in Sources */,
 				556BC05B1FC3CEA6009A23F5 /* ThemeImage.m in Sources */,
-				556BC04E1FC3CEA6009A23F5 /* NSDictionary+Extensions.m in Sources */,
 				556BC0621FC3CEA6009A23F5 /* NSData+Base64.m in Sources */,
-				556BC0681FC3CEA6009A23F5 /* NSDate+Extension.m in Sources */,
 				556BC0851FC3CEA7009A23F5 /* MessageViewController.m in Sources */,
-				556BC0661FC3CEA6009A23F5 /* KeyChainStore.m in Sources */,
 				556BC0601FC3CEA6009A23F5 /* UIViewUtility.m in Sources */,
 				556BC05F1FC3CEA6009A23F5 /* RequestVideoAccess.m in Sources */,
 				556BC05D1FC3CEA6009A23F5 /* JRSwizzle.m in Sources */,

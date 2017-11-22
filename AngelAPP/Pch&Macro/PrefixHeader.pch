@@ -28,5 +28,6 @@
 #import "YYModel.h"
 #import "YYCategories.h"
 #import "Masonry.h"
+#import "Extensions.h"
 
 #endif /* PrefixHeader_pch */

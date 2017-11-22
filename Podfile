@@ -9,4 +9,5 @@ pod 'AngelConst', '~> 1.1.1'
 pod 'YYCategories', '~> 1.0.4'
 pod 'YYModel', '~> 1.0.4'
 pod 'Masonry', '~> 1.1.0'
+pod 'AngelCategories', '~> 0.1.1'
 end
