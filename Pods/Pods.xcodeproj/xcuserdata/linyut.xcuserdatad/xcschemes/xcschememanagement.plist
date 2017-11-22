@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>CocoaSecurity.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>IQKeyboardManager.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -62,17 +67,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>38F5E77B5D7A4A154B1932BA27D09252</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>55BC194E6B7F67C897477F88BCE37259</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>66107B587D474C7A4A6F49CEDA6F1BE1</key>
+		<key>431C7497D08AF606E5816626220DB0DD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -97,12 +92,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C8C5D79D008D12D9CF48EABBA85EDBB6</key>
+		<key>AE8A51778D86DC00FDE10C70335254E6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CB514C1A5B60F97E83974DEF9F5F581C</key>
+		<key>B657FE4103574537236722E0C943A310</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BD8F0BA2114F05776093CFFC9102C1CD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CA6B4A213A427ACCD51F2AFF6C094C98</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CDFE9068D8E0BB6336A44B72C1722BE7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

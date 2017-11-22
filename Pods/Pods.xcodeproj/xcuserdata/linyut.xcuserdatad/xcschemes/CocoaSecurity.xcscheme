@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'CDFE9068D8E0BB6336A44B72C1722BE7'
-               BlueprintName = 'UzysAssetsPickerController'
+               BlueprintIdentifier = 'CA6B4A213A427ACCD51F2AFF6C094C98'
+               BlueprintName = 'CocoaSecurity'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libUzysAssetsPickerController.a'>
+               BuildableName = 'libCocoaSecurity.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
