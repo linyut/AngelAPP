@@ -8,4 +8,5 @@ pod 'IQKeyboardManager', '~> 5.0.6'
 pod 'AngelConst', '~> 1.1.1'
 pod 'YYCategories', '~> 1.0.4'
 pod 'YYModel', '~> 1.0.4'
+pod 'Masonry', '~> 1.1.0'
 end

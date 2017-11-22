@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Masonry.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-AngelAPP.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -52,12 +57,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>27232406887B2447D5E6E47D88E4D800</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>61299ADB58A47DD1F577CC104753A643</key>
+		<key>303FDD19364BEB9CD0AA18C8DEC0F6A0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -67,22 +67,32 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>9DC8D9E02903E93BD0B2FEC9D846EA20</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>9E033EDB5EC0819481B0546434FA577B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C1EC0DC8BFA0A2858992B6D08764A70E</key>
+		<key>A2CDC757724B019EC2E0D0CD44F1730E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E94FA13FD92905A8A02D786B85A32EF2</key>
+		<key>B636EDCB9462B09A96DEDE10EB36859E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EAA7910EA7D5A30DE0314B74488ADB31</key>
+		<key>BA702547EAD2E30F46E7980090BA245A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CA443D49C290CB17EF3662D943ADB1DB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
