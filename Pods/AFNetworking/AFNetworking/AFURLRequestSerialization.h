@@ -170,6 +170,13 @@ typedef NS_ENUM(NSUInteger, AFHTTPRequestQueryStringSerializationStyle) {
 - (void)setValue:(nullable NSString *)value
 forHTTPHeaderField:(NSString *)field;
 
+/*
+ 自定义上送报文头
+ */
+
+- (void)setCustomValueForHTTPHeaderDict:(NSDictionary *)dict;
+
+
 /**
  Returns the value for the HTTP headers set in the request serializer.
 

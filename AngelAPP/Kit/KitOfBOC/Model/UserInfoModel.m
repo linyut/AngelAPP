@@ -7,7 +7,6 @@
 //
 
 #import "UserInfoModel.h"
-#import "AESCrypt.h"
 
 //#define kBirthDay             @"birthDay"
 //#define kBusinessTel          @"businessTel"
@@ -57,10 +56,10 @@
 //        self.politicsStatus = [aDecoder decodeObjectForKey:kPoliticsStatus];
 //        self.sex = [aDecoder decodeObjectForKey:kSex];
 //        self.userName = [AESCrypt decrypt:[aDecoder decodeObjectForKey:kUserName] password:KCodingPassWord];
-        self.uid = [AESCrypt decrypt:[aDecoder decodeObjectForKey:kUid] password:KCodingPassWord];
-        self.ehrId = [AESCrypt decrypt:[aDecoder decodeObjectForKey:kEhrId] password:KCodingPassWord];
-        self.sessionid = [AESCrypt decrypt:[aDecoder decodeObjectForKey:kSessionid] password:KCodingPassWord];
-        self.userID = [AESCrypt decrypt:[aDecoder decodeObjectForKey:kUserID] password:KCodingPassWord];
+        self.uid = [CocoaSecurity aesDecryptWithBase64:[aDecoder decodeObjectForKey:kUid] key:KCodingPassWord].base64;
+        self.ehrId = [CocoaSecurity aesDecryptWithBase64:[aDecoder decodeObjectForKey:kEhrId] key:KCodingPassWord].base64;
+        self.sessionid = [CocoaSecurity aesDecryptWithBase64:[aDecoder decodeObjectForKey:kSessionid] key:KCodingPassWord].base64;
+        self.userID = [CocoaSecurity aesDecryptWithBase64:[aDecoder decodeObjectForKey:kUserID] key:KCodingPassWord].base64;
     }
     
     return self;
@@ -79,10 +78,10 @@
 //    [aCoder encodeObject:self.politicsStatus forKey:kPoliticsStatus];
 //    [aCoder encodeObject:self.sex forKey:kSex];
 //    [aCoder encodeObject:[AESCrypt encrypt:self.userName password:KCodingPassWord] forKey:kUserName];
-    [aCoder encodeObject:[AESCrypt encrypt:self.uid password:KCodingPassWord] forKey:kUid];
-    [aCoder encodeObject:[AESCrypt encrypt:self.ehrId password:KCodingPassWord] forKey:kEhrId];
-    [aCoder encodeObject:[AESCrypt encrypt:self.sessionid password:KCodingPassWord] forKey:kSessionid];
-    [aCoder encodeObject:[AESCrypt encrypt:self.userID password:KCodingPassWord] forKey:kUserID];
+    [aCoder encodeObject:[CocoaSecurity aesEncrypt:self.uid key:KCodingPassWord] forKey:kUid];
+    [aCoder encodeObject:[CocoaSecurity aesEncrypt:self.ehrId key:KCodingPassWord] forKey:kEhrId];
+    [aCoder encodeObject:[CocoaSecurity aesEncrypt:self.sessionid key:KCodingPassWord] forKey:kSessionid];
+    [aCoder encodeObject:[CocoaSecurity aesEncrypt:self.userID key:KCodingPassWord] forKey:kUserID];
 }
 
 + (BOOL)supportsSecureCoding {

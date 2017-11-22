@@ -29,10 +29,6 @@
 		556BC05E1FC3CEA6009A23F5 /* NSdictionary+MyDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BBFDA1FC3CEA6009A23F5 /* NSdictionary+MyDescription.m */; };
 		556BC05F1FC3CEA6009A23F5 /* RequestVideoAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BBFDC1FC3CEA6009A23F5 /* RequestVideoAccess.m */; };
 		556BC0601FC3CEA6009A23F5 /* UIViewUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BBFDE1FC3CEA6009A23F5 /* UIViewUtility.m */; };
-		556BC0611FC3CEA6009A23F5 /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BBFE21FC3CEA6009A23F5 /* AESCrypt.m */; };
-		556BC0621FC3CEA6009A23F5 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BBFE41FC3CEA6009A23F5 /* NSData+Base64.m */; };
-		556BC0631FC3CEA6009A23F5 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BBFE61FC3CEA6009A23F5 /* NSData+CommonCrypto.m */; };
-		556BC0641FC3CEA6009A23F5 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BBFE81FC3CEA6009A23F5 /* NSString+Base64.m */; };
 		556BC07D1FC3CEA7009A23F5 /* TabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BC02A1FC3CEA6009A23F5 /* TabbarController.m */; };
 		556BC07E1FC3CEA7009A23F5 /* BaseNavgationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BC02D1FC3CEA6009A23F5 /* BaseNavgationViewController.m */; };
 		556BC07F1FC3CEA7009A23F5 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556BC02F1FC3CEA6009A23F5 /* BaseViewController.m */; };
@@ -110,14 +106,6 @@
 		556BBFDC1FC3CEA6009A23F5 /* RequestVideoAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestVideoAccess.m; sourceTree = "<group>"; };
 		556BBFDD1FC3CEA6009A23F5 /* UIViewUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewUtility.h; sourceTree = "<group>"; };
 		556BBFDE1FC3CEA6009A23F5 /* UIViewUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewUtility.m; sourceTree = "<group>"; };
-		556BBFE11FC3CEA6009A23F5 /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
-		556BBFE21FC3CEA6009A23F5 /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
-		556BBFE31FC3CEA6009A23F5 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
-		556BBFE41FC3CEA6009A23F5 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
-		556BBFE51FC3CEA6009A23F5 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
-		556BBFE61FC3CEA6009A23F5 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
-		556BBFE71FC3CEA6009A23F5 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
-		556BBFE81FC3CEA6009A23F5 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
 		556BC0241FC3CEA6009A23F5 /* InterfaceUrls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceUrls.h; sourceTree = "<group>"; };
 		556BC0251FC3CEA6009A23F5 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		556BC0291FC3CEA6009A23F5 /* TabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarController.h; sourceTree = "<group>"; };
@@ -365,24 +353,8 @@
 		556BBFDF1FC3CEA6009A23F5 /* ThirdPartOpenSource */ = {
 			isa = PBXGroup;
 			children = (
-				556BBFE01FC3CEA6009A23F5 /* AES */,
 			);
 			path = ThirdPartOpenSource;
-			sourceTree = "<group>";
-		};
-		556BBFE01FC3CEA6009A23F5 /* AES */ = {
-			isa = PBXGroup;
-			children = (
-				556BBFE11FC3CEA6009A23F5 /* AESCrypt.h */,
-				556BBFE21FC3CEA6009A23F5 /* AESCrypt.m */,
-				556BBFE31FC3CEA6009A23F5 /* NSData+Base64.h */,
-				556BBFE41FC3CEA6009A23F5 /* NSData+Base64.m */,
-				556BBFE51FC3CEA6009A23F5 /* NSData+CommonCrypto.h */,
-				556BBFE61FC3CEA6009A23F5 /* NSData+CommonCrypto.m */,
-				556BBFE71FC3CEA6009A23F5 /* NSString+Base64.h */,
-				556BBFE81FC3CEA6009A23F5 /* NSString+Base64.m */,
-			);
-			path = AES;
 			sourceTree = "<group>";
 		};
 		556BC0221FC3CEA6009A23F5 /* ThirdPartSDK */ = {
@@ -780,8 +752,6 @@
 				556BC07F1FC3CEA7009A23F5 /* BaseViewController.m in Sources */,
 				556BC0531FC3CEA6009A23F5 /* UITabBar+CustomBadge.m in Sources */,
 				556BC07D1FC3CEA7009A23F5 /* TabbarController.m in Sources */,
-				556BC0631FC3CEA6009A23F5 /* NSData+CommonCrypto.m in Sources */,
-				556BC0641FC3CEA6009A23F5 /* NSString+Base64.m in Sources */,
 				556BC0541FC3CEA6009A23F5 /* ErrorInfoModel.m in Sources */,
 				556BC0841FC3CEA7009A23F5 /* HomeViewModel.m in Sources */,
 				556BC0551FC3CEA6009A23F5 /* UserInfoModel.m in Sources */,
@@ -790,11 +760,9 @@
 				556BC0821FC3CEA7009A23F5 /* HomeViewController.m in Sources */,
 				556BC05C1FC3CEA6009A23F5 /* ThemeManager.m in Sources */,
 				556BC0581FC3CEA6009A23F5 /* LoginInstance.m in Sources */,
-				556BC0611FC3CEA6009A23F5 /* AESCrypt.m in Sources */,
 				556BC0871FC3CEA7009A23F5 /* MineViewController.m in Sources */,
 				556BBF7F1FC3CE21009A23F5 /* AppDelegate.m in Sources */,
 				556BC05B1FC3CEA6009A23F5 /* ThemeImage.m in Sources */,
-				556BC0621FC3CEA6009A23F5 /* NSData+Base64.m in Sources */,
 				556BC0851FC3CEA7009A23F5 /* MessageViewController.m in Sources */,
 				556BC0601FC3CEA6009A23F5 /* UIViewUtility.m in Sources */,
 				556BC05F1FC3CEA6009A23F5 /* RequestVideoAccess.m in Sources */,

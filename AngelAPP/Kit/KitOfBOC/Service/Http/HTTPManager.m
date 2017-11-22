@@ -57,10 +57,10 @@ static HTTPManager *_instanceSingle = nil;
     self.sessionManager.securityPolicy.allowInvalidCertificates = NO;
     
     if (header) {
-        
-//        [self.sessionManager.requestSerializer setCustomValueForHTTPHeaderDict:header];
+//        self.sessionManager.requestSerializer.HTTPRequestHeaders = header;
+        [self.sessionManager.requestSerializer setCustomValueForHTTPHeaderDict:header];
     }else{
-//        [self.sessionManager.requestSerializer setCustomValueForHTTPHeaderDict:[self constructPostHeader]];
+        [self.sessionManager.requestSerializer setCustomValueForHTTPHeaderDict:[self constructPostHeader]];
     }
     
     NSLog(@"post url:%@",postUrl);

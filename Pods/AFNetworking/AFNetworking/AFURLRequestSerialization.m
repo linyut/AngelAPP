@@ -309,10 +309,19 @@ static void *AFHTTPRequestSerializerObserverContext = &AFHTTPRequestSerializerOb
     return [NSDictionary dictionaryWithDictionary:self.mutableHTTPRequestHeaders];
 }
 
+
 - (void)setValue:(NSString *)value
 forHTTPHeaderField:(NSString *)field
 {
 	[self.mutableHTTPRequestHeaders setValue:value forKey:field];
+}
+
+- (void)setCustomValueForHTTPHeaderDict:(NSDictionary *)dict
+{
+    for(NSString *key in dict)
+    {
+        [self setValue:dict[key] forHTTPHeaderField:key];
+    }
 }
 
 - (NSString *)valueForHTTPHeaderField:(NSString *)field {
