@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LaunchIntroductionView.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [LaunchIntroductionView sharedWithImages:@[@"LaunchIntroduction1", @"LaunchIntroduction2", @"LaunchIntroduction3", @"LaunchIntroduction4", @"LaunchIntroduction5", ] buttonImage:@"" buttonFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight)];
+    
     return YES;
 }
 

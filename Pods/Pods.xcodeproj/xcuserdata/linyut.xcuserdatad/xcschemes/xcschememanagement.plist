@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>AngelLaunchIntroductionView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>CocoaSecurity.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -67,12 +72,32 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>431C7497D08AF606E5816626220DB0DD</key>
+		<key>3025A3D9E0597755027E7E42BC6C46CA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>39CDBEC65AC1DD6BECDA171A3E937C81</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>41B84BA044F7A96CB0489E92F49B7767</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>6FC0FF16A1B0E2F980FF5768DA8F4D96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>72F4DD0EA02C97AEE95243489E5F155B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8810D6514DDA2754F364047A0B896066</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -92,27 +117,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AE8A51778D86DC00FDE10C70335254E6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B657FE4103574537236722E0C943A310</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>BD8F0BA2114F05776093CFFC9102C1CD</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>CA6B4A213A427ACCD51F2AFF6C094C98</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CDFE9068D8E0BB6336A44B72C1722BE7</key>
+		<key>F1851B43356D649416CA6D448E64D8E5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

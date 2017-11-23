@@ -11,4 +11,5 @@ pod 'YYModel', '~> 1.0.4'
 pod 'Masonry', '~> 1.1.0'
 pod 'AngelCategories', '~> 0.1.1'
 pod 'CocoaSecurity', '~> 1.2.4'
+pod 'AngelLaunchIntroductionView', '~> 0.1.0'
 end
